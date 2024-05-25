@@ -18,10 +18,10 @@
 ## Instalação
 
 <p style="text-align: left">
-1. Certifique-se de ter o Node.js e o npm instalados em seu sistema.
-2. Clone este repositório em sua máquina local.
-3. Navegue até o diretório do projeto e execute npm install para instalar as dependências.
-4. Configure as variáveis de ambiente necessárias no arquivo .env.
+1. Certifique-se de ter o Node.js e o npm instalados em seu sistema.</p> </br>
+2. Clone este repositório em sua máquina local.</br>
+3. Navegue até o diretório do projeto e execute npm install para instalar as dependências.</br>
+4. Configure as variáveis de ambiente necessárias no arquivo .env.</br>
 5. Execute npm start para iniciar o servidor.</p>
 
 ## Rodando o Docker Compose
