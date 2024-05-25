@@ -40,7 +40,7 @@ docker-compose down
 ```bash
 
 # Criar a migration
-npm run"migration:create"
+npm run migration:create
 
 # Gerar migrate
 npm run migration:generate
