@@ -1,0 +1,16 @@
+[{
+    "type": "postgres",
+    "host": "dpg-cp8ielv109ks739rspgg-a.ohio-postgres.render.com",
+    "database": "conexao_empresarial_j7ue",
+    "username": "conexao_empresarial",
+    "password": "9IwymPvHHclUieu3avmXsGFSW8Mgi1RR",
+    "entities": ["src/**/*.entity{.ts,.js}"],
+    "migrations": ["src/migrations/*{.ts,.js}"],
+    "synchronize": false,
+    "ssl": {
+      "rejectUnauthorized": false,
+    },
+    "cli": {
+      "migrationsDir": "./src/migrations"
+    }
+  }
