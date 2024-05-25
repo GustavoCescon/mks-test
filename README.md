@@ -1,6 +1,6 @@
 ## Descrição do Projeto
 
-<p style="text-align: left">Este projeto representa minha primeira experiência com Docker, onde busquei mergulhar profundamente no aprendizado da tecnologia. Embora pudesse ter optado por uma arquitetura hexagonal mais complexa, decidi por uma abordagem mais simples para este teste. O projeto consiste em uma API RESTful de gerenciamento de filmes, com autenticação de usuários, utilizando bancos de dados PostgreSQL e Redis para caching.</p>
+<p style="text-align: left">Este projeto representa minha primeira experiência com Docker, onde busquei mergulhar profundamente no aprendizado da tecnologia. Embora pudesse ter optado por uma arquitetura hexagonal mais complexa, é uma api simples de gerenciamento de filmes desenvolvido com Nest.js e TypeScript. Ele permite que os usuários visualizem uma lista de filmes, adicionem novos filmes, editem informações existentes e excluam filmes da base de dados utilizando bancos de dados PostgreSQL e Redis para caching.</p>
 
 
 ## Tecnologias usadas
@@ -14,6 +14,15 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" height="45" width="45" />
                      
 </div>
+
+## Instalação
+
+<p style="text-align: left">
+1. Certifique-se de ter o Node.js e o npm instalados em seu sistema.
+2. Clone este repositório em sua máquina local.
+3. Navegue até o diretório do projeto e execute npm install para instalar as dependências.
+4. Configure as variáveis de ambiente necessárias no arquivo .env.
+5. Execute npm start para iniciar o servidor.</p>
 
 ## Rodando o Docker Compose
 
@@ -40,10 +49,14 @@ npm run migration:generate
 
 ## Acessando a Documentação e a API
 
--  Link da API - [Aqui](http://34.123.109.37:3000/users)
+-  Link da API - [Aqui](https://api-movie-agpv.onrender.com/)
 
-- Documentação - [Aqui](http://34.123.109.37:3000/api)
+- Documentação - [Aqui](https://api-movie-agpv.onrender.com/api)
 
 ## Considerações
 
-<p style="text-align: left">Não achei nescessário a existências de testes e2e e unitários devido a simplicidade da aplicação, o desenvolvimento desses testes não me daria um ganho de tempo se testados na mão, visto que cada rota era produzida unicamente e logo em seguida, testada, por isso não os inclui no repositorio.</p>
+<p style="text-align: left">Considerando minha experiência de dois anos trabalhando com tecnologias como Nest.js, TypeScript, bancos de dados relacionais e Git, sinto-me confiante em abordar projetos de desenvolvimento de software com eficiência e qualidade. Através desses anos, tive a oportunidade de enfrentar uma variedade de desafios e adquirir um profundo conhecimento dessas ferramentas, permitindo-me desenvolver soluções eficazes e escaláveis. Dada a natureza deste projeto e sua relativa simplicidade, não identifiquei a necessidade de realizar um teste específico. Com base em minha experiência anterior e compreensão do escopo do projeto, estou confiante em minha capacidade de fornecer uma solução satisfatória sem a necessidade de um teste adicional.</p>
+
+## Contribuição
+
+<p style="text-align: left">Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou enviar uma solicitação de pull com melhorias ou correções.</p>
